@@ -1,0 +1,168 @@
+
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6DEF1;
+    color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 37px;
+    
+}
+
+nav .title {
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px 60px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex; /* Use flexbox to align items vertically */
+    align-items: center; /* Center items vertically */
+    justify-content: center;
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 130px;
+}
+
+nav ul li:hover {
+    background-color: #80a5d6;
+    color: azure;
+    
+}
+
+nav ul li.active {
+    background-color: #80a5d6;
+    color: azure;
+}
+
+nav ul li a:not(.active):hover {
+    background-color: #80a5d6;
+}
+
+
+nav .menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 0.2rem;
+}
+/* Existing styles */
+
+@media (max-width: 1300px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        position: absolute;
+        top: 80px; /* Adjust this value to align with your header */
+        background-color: #C6DEF1;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+        align-items:center;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 50%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+
+    nav .menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logoImg {
+        margin: 1; /* Reset margin for logo and profile */
+        margin-top: 10px;
+        
+    }
+    .logoImg {
+        margin-left: 0;
+        margin-bottom: 10px; /* Add some space below the logo */
+    }
+
+    .login {
+        margin-right: 100px;
+        margin-top: 22px;
+    }
+    .login button {
+        width: 80px; /* Adjust button width */
+        border-radius: 2rem;
+        padding: 0.5rem;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+.logoImg{
+    width: 80px;
+    cursor: pointer;
+    margin-left: 100px; /* Adjust this value as needed */
+}
+.profileImg{
+    position: absolute;
+    right: 5%;
+    top: 12%;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+.login{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    border-radius: 70px;
+}

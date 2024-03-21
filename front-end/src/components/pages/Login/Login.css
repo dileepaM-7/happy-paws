@@ -1,0 +1,127 @@
+
+.login-container{
+position: absolute;
+  top: 0; /* Adjust this value to move the container down */
+  background-color: #C6DEF1;
+  height: 100%;
+  width: 100%;
+    
+}
+
+  
+.login-form-content {
+    background-color: rgba(186, 213, 228, 0.603);
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    
+}
+.login-email-lbl{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #000;
+    
+}
+.login-password-lbl{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    color: #000;
+}
+.forgot-password-link{
+    position: absolute;
+    top: 58%;
+    left: 67%;
+    font-size: small;
+    text-decoration: none;
+    color: #000;
+}
+.login-btn{
+    position: absolute;
+    top: 260px;
+    left: 55%;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 25%;
+}
+.input-field{
+    width: 140%;
+}
+.Register-btn{
+    position: absolute;
+    top: 320px;
+    left: 130px;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 20%;
+}
+.login-form-content h3{
+    position: absolute;
+    left: 27%;
+    top: 8%;
+}
+.google-btn{
+    position: absolute;
+    top: 260px;
+    left: 18%;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 30%;
+}
+h6{
+    position: absolute;
+    top: 83%;
+    left: 32%;
+    font-size: small;
+    text-decoration: none;
+    color: #000;
+}
+@media only screen and (max-width: 2000px){
+    .login-form-content{
+        left: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 1700px){
+    .login-form-content{
+        left: 15%;
+    }
+  }
+  @media only screen and (max-width: 1600px){
+    .login-form-content{
+        left: 10%;
+    }
+  }
+  @media only screen and (max-width: 1300px){
+    .login-form-content{
+        left: 8%;
+        width: 37%;
+        height: 45%;
+    }
+    .input-field{
+        width: 100%;
+  }
+  .create-account-link{
+    top: 80%;
+  }
+}
+@media only screen and (max-width: 1000px){
+    .login-form-content{
+        left: 18%;
+        width: 67%;
+        height: 45%;
+    }
+    .input-field{
+        width: auto;
+  }
+}
+.err-msg{
+    position: absolute;
+    top: 64%;
+    left: 0%;
+    width: 500px;
+}

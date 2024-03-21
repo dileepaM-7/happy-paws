@@ -1,0 +1,70 @@
+.consultants{
+    background-color: #C6DEF1;
+    width: 100%;
+    height: auto;
+}
+.consultant-container {
+  position: relative;
+  top: -70px;
+    margin-top: 550px; 
+    max-width: 650px;
+  height: 650px;
+  margin: 100px auto; /* Set margin-top to 100px and use 'auto' for left and right margins */
+  padding: 20px;
+  text-align: center;
+  background-color: #2b3440;
+  border-radius: 100px;
+  color: #fff;
+  align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .search-bar {
+    margin: 0 auto;
+  }
+  
+  
+  .search-btn{
+    position: absolute;
+    top: 0%;
+    left: 83%;
+    border-radius: 100px;
+  }
+
+  .consultant-details {
+    height: 500px; /* Set the desired height for the scrollable section */
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  
+  .consultant-details {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center content horizontally within the ul */
+    }
+  
+    li {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+  
+    .details {
+      padding-left: 10px;
+      width: 450px;
+      background-color: #e9e9e9;
+      color: #000000;
+      border-radius: 20px;
+    }
+  }
+.nodata-msg{
+  color: red;
+}
+  

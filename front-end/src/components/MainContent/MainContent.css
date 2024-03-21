@@ -1,0 +1,106 @@
+.main_content{
+    width: 1300px; /* Set the width of the box */
+    height: 650px; /* Set the height of the box */
+    background-color: #ffffff91;  /* Set the background color */
+    border-radius: 100px; /* Set the border-radius for rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Center the box horizontally */
+    margin-top: 15px; /* Adjust the top margin as needed */
+}
+.dogImage{
+    width: 550px;
+    align-items: right;
+    position: absolute; /* Use absolute positioning */
+    right: 130px; /* Align to the right */
+    top: 250px;
+}
+.dog_Image1{
+  position: relative;
+    height: 15%;
+    width: 8%;
+    border-radius: 50%;
+    margin-bottom: 280px;
+    margin-left: 600px;
+    border: 2px solid;
+    border-color: rgb(195, 133, 133);
+}
+.dog_Image2{
+    height: 15%;
+    width: 8%;
+    border-radius: 50%;
+    margin-bottom: 500px;
+    margin-left: 100px;
+    border: 2px solid;
+    border-color: rgb(195, 133, 133);
+
+}
+.dog_Image3{
+    height: 15%;
+    width: 8%;
+    border-radius: 50%;
+    margin-bottom: 480px;
+    margin-left: 100px;
+    border: 2px solid;
+    border-color: rgb(195, 133, 133);
+}
+.dog_Image1,
+.dog_Image2,
+.dog_Image3,
+.dogImage {
+  opacity: 0;
+  animation: dogFadeIn 1s forwards;
+}
+
+@keyframes dogFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%); /* Start from the right side */
+  } 
+  to {
+    opacity: 1;
+    transform: translateX(0%); /* Stay in the middle */
+  }
+}
+#main-part{
+  position: relative;
+  top: 8%;
+}
+#doggy{
+  position: absolute;
+  top: 21%;
+  left: 52%;
+}
+@media only screen and (max-width: 1300px) {
+  .dog_Image1,
+  .dog_Image2,
+  .dog_Image3 {
+    display: none; /* Hide the elements */
+  }
+
+  .main_content {
+    width: 90%; /* Set the width of the box */
+    height: 550px; /* Set the height of the box */
+    background-color: #ffffff91;  /* Set the background color */
+    border-radius: 100px; /* Set the border-radius for rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Center the box horizontally */
+    margin-top: 15px; /* Adjust the top margin as needed */
+    
+  }
+
+  .dogImage {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .dogImage {
+    display: none;
+  }
+}

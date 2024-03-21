@@ -1,0 +1,505 @@
+.excersie-section{
+  background-color: #C6DEF1;
+  height: 300%;
+  width: 100%;
+ }
+.exercise-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.Input-Footer{
+  position: relative;
+  top: 1350px;
+  left: 0px;
+  width: 100%;
+
+}
+
+.Exercise-text1{
+  font-size: 400%;
+  font-weight: 700;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(12, 12, 180);
+  left: 38%;
+  position: relative;
+  animation: fadeInRight 1s ease-in-out;
+}
+.Exercise-text2{
+font-size: xx-large;
+position: relative;
+font-weight: 800;
+top: 100px;
+right: 8%;
+color: #363da1;
+animation: slideInLeft 1s ease-in-out;
+
+}
+.Exercise-text3{
+  font-size: 500%;
+  position: relative;
+  font-weight: 800;
+  top: 100px;
+  left: 40%;
+  color: rgb(78, 71, 149);
+  animation: fadeInRight 1s ease-in-out;
+  
+}
+
+.Exercise-text4{
+  font-size: 180%;
+  position: relative;
+  font-weight: 800;
+  top: 75px;
+  left: 65%;
+  animation: fadeInRight 1s ease-in-out;
+}
+.Exercise-text5{
+  font-size: 500%;
+  position: absolute;
+  font-weight: 800;
+  top: 50%;
+  left: 75%;
+  color: #c35abf;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.Exercise-para1{
+  left: 37%;
+  position: absolute;
+  top: 67%;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeInRight 1s ease-in-out;
+  }
+.Exercise-para1:hover {
+  transform: scale(1.05);
+}
+
+
+.ExerciseDogImage1{
+width: 400px;
+height: 600px;
+position: absolute;
+top: 16%;
+left: 4%;
+border-radius: 20px;
+
+animation: fadeInUp 1s ease-in-out; /* Apply animation */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.WoofImage{
+  width: 35%;
+  height: 30%;
+  position: absolute;
+  left: -35%;
+  top:10%;
+}
+
+.ExerciseButton1{
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #222dc7;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+  left: 36.5%;
+  top: 82%;
+  animation: fadeInRight 1s ease-in-out;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  
+}
+.ExerciseButton1:hover {
+  background-color: #9c38c7;
+  transform: scale(1.05);
+}
+
+.Exercise-bottom{
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.Exercise-Form{
+  background-color: rgb(5, 3, 74);
+    z-index: 2;
+    position: relative;  
+    top: 70px ;
+    width:100%;
+    height: 250px;
+    text-align: center;
+    
+}
+.Exercise-Form h1{
+  color: #9c38c7;
+  }
+
+.ExerciseInput1{
+  position: relative;
+  top:25px;
+  width: 300px;
+  height: 30px;
+  padding: 8px 100px;
+  background-color: #ffffff;
+  font-weight: 600;
+  color: #0e0e0e;
+}
+
+
+.Exercise-submit{
+  position: absolute;
+  top:40%;
+  right: 48%;
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: #e6e6e6;
+  background-color: #2b3899;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.Exercise-submit:hover{
+  background-color: #a34eb2;
+}
+.ExerciseForm-text1{
+  position: absolute;
+  font-size: 200%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  color: #907bc5;
+  left:25%;
+}
+.ExerciseDogImage2{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  right: 38%;
+  bottom: 40px;
+  animation: step-start;
+}
+.ExerciseDogImage3{
+  height: 400px;
+  width: 300px;
+  bottom: 143px;
+  position: fixed;
+  left:50%;
+}
+
+.exercise-card-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(220px,ifr));
+grid-gap:1.5em ;
+
+}
+.Exercise-card-Adult{
+  position: relative;
+  top: 130%;
+  width: 100%;
+  height:100%;
+}
+
+.ExerciseCardDogImage2{
+  border-radius: 5px;
+  z-index: -1;
+  height: 300px;
+  width:400px
+}
+.ExerciseCardDogImage2i{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 3px solid var(--background-light);
+  box-shadow: 0 1px 3px var(--shadow-color-);
+  top: 52%;
+  position: absolute;
+  z-index: 2;
+  left:1%;
+}
+.Exercise-ViewmoreButton{
+  font-weight: 800;
+}
+.WeightText{
+  color: #0e0e0e;
+  font-weight: 900;
+
+}
+
+.Exercise-ViewmoreButton{
+  font-family: montserrat;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  overflow: hidden;
+
+}
+.Exercise-ViewmoreButton:hover{
+  color: #9c38c7;
+
+}
+.Exercise-ViewmoreButton::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width:100%;
+  height: 0%;
+  z-index: -1;
+  transition:0.8s;
+}
+.Exercise-ViewmoreButton::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.Exercise-ViewmoreButton::before{
+  height: 180%;
+}
+
+.Exercise-card1{
+  position: relative;
+  left: 100px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px var(--shadow-color-);
+  height: 510px;
+  width:  400px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeInRight 1s ease-in-out; 
+  .ExerciseCard-info{
+    padding: 15px;
+    
+  }
+
+}
+.Exercise-card1:hover{
+  transform: scale(1.05);
+}
+.Exercise-card2{
+  top: -64.5%;
+  background-color:#e4f2fe;
+  position: relative;
+  left: 550px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px var(--shadow-color-);
+  height: 510px;
+  width:  400px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeInRight 1s ease-in-out; 
+  .ExerciseCard-info{
+    padding: 15px;
+    
+  }
+}
+.Exercise-card2:hover{
+  transform: scale(1.05);
+}
+
+.Exercise-card3{
+  top: -129.5%;
+  position: relative;
+  left: 1000px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px var(--shadow-color-);
+  height: 530px;
+  width:  400px;
+  animation: fadeInRight 1s ease-in-out; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  
+  .ExerciseCard-info{
+    padding: 15px; 
+  }
+  .ExerciseCardDogImage2i{
+      top:50%;
+  }
+  
+}
+.Exercise-card3:hover{
+  transform: scale(1.05);
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/*responsive styles*/
+
+@media only screen and (max-width: 360px) {
+  .excersie-section{
+    width: 680px;
+    
+  }
+  .Exercise-text1 {
+    font-size: 10%;
+    left: 360px;
+  }
+
+  .Exercise-text2 {
+    font-size: large;
+    top: 50px;
+    left: 20px;
+  }
+
+  .Exercise-text3 {
+    font-size: 400%;
+    top: 50px;
+    letter-spacing: 10px;
+    left: 50%;
+    
+  }
+
+  .Exercise-text4 {
+    font-size: 150%;
+    top: 40px;
+    left: 65%;
+  }
+
+  .Exercise-text5 {
+    font-size: 400%;
+    top: 300px;
+    left: 90%;
+    letter-spacing: 10px;
+  }
+
+  .Exercise-para1 {
+    left: 45%;
+    top: 64%;
+    font-size:80% ;
+  }
+
+  .ExerciseDogImage1 {
+    width: 300px;
+    height: 450px;
+    top: 15%;
+    left: 2%;
+  }
+
+  .ExerciseButton1 {
+    top: 85%;
+    left: 10%;
+  }
+
+ 
+}
+
+
+@media only screen and (max-width: 360px) {
+  .Exercise-text1 {
+    font-size: 190%;
+    left: 320px;
+  }
+
+  .Exercise-text2 {
+    font-size: large;
+    top: 50px;
+    left: 20px;
+  }
+
+  .Exercise-text3 {
+    font-size: 400%;
+    top: 50px;
+    letter-spacing: 10px;
+    left: 50%;
+  }
+
+  .Exercise-text4 {
+    font-size: 150%;
+    top: 40px;
+    left: 65%;
+  }
+
+  .Exercise-text5 {
+    font-size: 400%;
+    top: 300px;
+    left: 99%;
+    letter-spacing: 10px;
+  }
+
+  .Exercise-para1 {
+    left: 92%;
+    width: 350px;
+    top: 65%;
+    font-size:100% ;
+  }
+
+  .ExerciseDogImage1 {
+    width: 300px;
+    height: 450px;
+    top: 30%;
+    left: 2%;
+  }
+
+  .ExerciseButton1 {
+    top: 102%;
+    left: 20%;
+  }
+
+  .excersie-section{
+    background-color: #C6DEF1;
+    height: 400%;
+    width: 800PX;
+   }
+}
+

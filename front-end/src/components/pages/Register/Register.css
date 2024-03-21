@@ -1,0 +1,118 @@
+.regform-content{
+    position:absolute;
+    top: 0;
+    background-color: #C6DEF1;
+    height: 100%;
+    width: 100%;
+}
+.main-content {
+    top: 0;
+    margin-bottom: 20px; /* Add margin-bottom to create space between MainContent and the form */
+}
+.form-content {
+    background-color: rgba(186, 213, 228, 0.603);
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    width: 500px;
+    height: 530px;
+    border-radius: 20px;
+}
+
+.userName-lbl{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: black;
+}
+
+.email-lbl{
+    position:absolute;
+    top: 30%;
+    left: 10%;
+    color: black;
+}
+.password-lbl{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: black;
+}
+.confirmPassword-lbl{
+    position:absolute;
+    top: 60%;
+    left: 10%;
+    color: black;
+}
+.input-field{
+    width: 400px;
+}
+.reg-btn{
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 25%;
+}
+.form-content h3{
+    position: absolute;
+    left: 27%;
+    top: 7%;
+}
+.log-label{
+    position: absolute;
+    left: 31%;
+    top: 92%;
+}
+.google-image{
+    position: absolute;
+    width: 15px;
+    top:30%;
+    left: 9%;
+}
+.error-message{
+    position: absolute;
+    top: 73%;
+    left: 63%;
+    font-size: x-small;
+    color: #ff0000;
+}
+.google-btn-reg{
+    position: absolute;
+    top: 75%;
+    left: 18%;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 30%;
+}
+@media only screen and (max-width: 2000px){
+    .form-content{
+        left: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 1700px){
+    .form-content{
+        left: 15%;
+    }
+  }
+  @media only screen and (max-width: 1600px){
+    .form-content{
+        left: 10%;
+    }
+  }
+  @media only screen and (max-width: 1300px){
+    .form-content{
+        left: 10%;
+        width: 37%;
+        height: 65%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .form-content{
+        left: 15%;
+        width: 70%;
+        height: 65%;
+    }
+}

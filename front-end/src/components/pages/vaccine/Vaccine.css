@@ -1,0 +1,53 @@
+/* Normal CSS equivalent of Tailwind CSS classes */
+.vaccinate-container{
+  
+  background-color: aliceblue;
+  display: flex;
+    width: 50%; /* w-1/2 */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    gap: 1rem; /* gap-10 */
+    height: 400px; /* h-screen */
+    align-items: center; /* items-center */
+    margin-top: 100px;
+  
+}
+.custom-grid {
+  width: 24rem; /* Equivalent to 'w-96' */
+  height: 24rem; /* Equivalent to 'h-96' */
+
+}
+.custom-date-grid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100%;
+}
+.date-content-upper{
+  height: 3.5rem;
+  border-top: 1px solid rgba(118, 116, 116, 0.417);
+  display: grid;
+  place-content: center;
+  font-size: 0.875rem;
+}
+.gray-text-number{
+  color: rgb(165, 168, 168);
+}
+.red-color-today{
+  background-color: rgb(238, 51, 51);
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  display: grid;
+  place-content: center;
+  color: white;
+}
+.date-content-upper:hover {
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  background-color:black ;
+  color: white;
+  transition-property: all;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}

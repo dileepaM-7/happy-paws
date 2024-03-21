@@ -1,0 +1,689 @@
+.Input-header{
+    display: flex;
+    gap: 0rem;
+    font-weight: bold;
+    font-size: 3rem;
+
+    color: rgb(53, 54, 55);
+    text-transform: uppercase;
+    font-style:italic;
+    margin-bottom: 1rem; 
+    top: 500px;
+    
+    justify-content: center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+.indoor-LinktoPage{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: #4971c5;
+}
+.InputDogImageForTopic{
+    position: relative;
+    left: 450px;
+    width: 450px;
+    height: 100px;
+    top: 500px;
+}
+
+.inputBottom{
+    width: 100%;
+    height: 100%;
+    background-color: #C6DEF1;
+    
+}
+.stroke-text{
+    -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+  font-family:serif;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.breed-card{
+    position: relative;
+    left: -4%;
+    display: flex;
+    gap: 3rem;
+    top: 600px;
+}
+
+.ExerciseCardImage1{
+    width: 90px;
+    left:-20px ;
+    position: relative;
+    z-index: 0;
+}
+.breed-card1 {
+    position: relative;
+    padding-left:  0px ;
+    height: 297px;
+    border-radius: 30px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+    gap: 1rem;
+    color: white;
+    background-image: url('your-background-image-url.jpg'); /* Set your background image URL */
+    min-height: 100%;
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.3), rgba(4, 1, 191, 0.3)), url('your-background-image-url.jpg'); /* Set your background image URL */
+    background-size: cover;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+    z-index: 2;
+    left: 100px;
+    
+}
+.card-header1{
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.Exe-Join-Now {
+    position: relative;
+    top: 0px;
+    left: 6%;
+    width: 200px;
+    border-radius: 20px;
+    height: 128px;
+    z-index: 0;
+    background-image: url('../../../../assets/TinyDoganimation.gif');
+    
+    background-size: cover;
+}
+
+.breed-card1:hover {
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.5), rgba(4, 1, 191, 0.5)), url('your-hover-background-image-url.jpg'); /* Set your hover background image URL */
+    cursor: pointer;
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
+/* Add animation to the Exe-Join-Now button */
+.Exe-Join-Now {
+    transition: transform 0.3s ease;
+}
+
+.breed-card1:hover .Exe-Join-Now {
+    transform: translateY(0px); /* Move button up slightly on hover */
+}
+
+.card-header1{
+    color: #000;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.dogsBreedsText{
+    text-align: center;
+    color: rgb(73, 80, 81);
+    
+}
+.JoinNowText{
+    z-index: 2;
+    padding-right:10px ;
+    width: 100px;
+    color: #07226b;
+    text-decoration: #ff2e2e;
+    font-family:sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+.JoinNowText1{
+    z-index: 2;
+    padding-right:10px ;
+    width: 100px;
+    color: #cad1e3;
+    text-decoration: #ff2e2e;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+.arrow-icon{
+    size: 6rem;
+    top: 3px;
+    position: relative;
+    
+}
+.arrow-icon1{
+    size: 6rem;
+    top: 3px;
+    position: relative;
+    color: #fefefe;
+    
+}
+.arrow-input{
+    width: 2rem;
+    left: 10px;
+    top: 12px;
+    position: relative;
+}
+
+.breed-card2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    border-radius: 30px;
+    gap: 1rem;
+    color: white;
+    width: 230px;
+    background-image: url('your-background-image-url.jpg'); /* Set your background image URL */
+    min-height: 100%;
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.3), rgba(4, 1, 191, 0.3)), url('your-background-image-url.jpg'); /* Set your background image URL */
+    background-size: cover;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+    position: relative;
+    z-index: 2;
+    left: 100px;
+    height: -200px;
+}
+.Exe-Join-Now2 {
+    position: relative;
+    top: 60px;
+    left: 6%;
+    width: 200px;
+    height: 130px;
+    z-index: 0;
+    border-radius: 20px;
+    background-image: url('../../../../assets/ActiveDogBreed1.gif');
+    background-size: cover;
+}
+.breed-card2:hover {
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.5), rgba(4, 1, 191, 0.5)), url('your-hover-background-image-url.jpg'); /* Set your hover background image URL */
+    cursor: pointer;
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
+/* Add animation to the Exe-Join-Now button */
+.Exe-Join-Now2 {
+    transition: transform 0.3s ease;
+}
+    
+.breed-card2:hover .Exe-Join-Now {
+    transform: translateY(-10px); /* Move button up slightly on hover */
+}
+
+.breed-card3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    gap: 1rem;
+    width: 230px;
+    border-radius: 30px;
+    color: white;
+    background-image: url('your-background-image-url.jpg'); /* Set your background image URL */
+    min-height: 100%;
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.3), rgba(4, 1, 191, 0.3)), url('your-background-image-url.jpg'); /* Set your background image URL */
+    background-size: cover;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+    position: relative;
+    z-index: 2;
+    left: 100px;
+    height: -100px;
+}
+.Exe-Join-Now3 {
+    position: absolute;
+    top: 67%;
+    left: 6%;
+    width: 200px;
+    height: 122px;
+    z-index: 0;
+    border-radius: 20px;
+    background-image: url('../../../../assets/ShaddigDog1.gif');
+    background-size: cover;
+}
+.breed-card3:hover {
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.5), rgba(4, 1, 191, 0.5)), url('your-hover-background-image-url.jpg'); /* Set your hover background image URL */
+    cursor: pointer;
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+    
+/* Add animation to the Exe-Join-Now button */
+.Exe-Join-Now3 {
+    transition: transform 0.3s ease;
+}
+
+.breed-card3:hover .Exe-Join-Now {
+    transform: translateY(-10px); /* Move button up slightly on hover */
+}
+.arrow-input1{
+    width: 2rem;
+    left: 5px;
+    top: 11px;
+    position: relative;
+}
+.dogsBreedsText1{
+    text-align: center;
+    color: rgb(73, 80, 81);
+}
+
+/*largeDogBreed.gif*/
+.breed-card4 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    gap: 1rem;
+    color: white;
+    background-image: url('your-background-image-url.jpg'); /* Set your background image URL */
+    min-height: 100%;
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.3), rgba(4, 1, 191, 0.3)), url('your-background-image-url.jpg'); /* Set your background image URL */
+    background-size: cover;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+    position: relative;
+    z-index: 2;
+    left: 100px;
+    border-radius: 30px;
+    width: 230px;
+}
+.Exe-Join-Now4 {
+    position: absolute;
+    top: 66%;
+    left: 6%;
+    width: 200px;
+    border-radius: 20px;
+    height: 125px;
+    z-index: 0;
+    background-image: url('../../../../assets/largeDogBreed.gif');
+    background-size: cover;
+}
+.breed-card4:hover {
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.5), rgba(4, 1, 191, 0.5)), url('your-hover-background-image-url.jpg'); /* Set your hover background image URL */
+    cursor: pointer;
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
+/* Add animation to the Exe-Join-Now button */
+.Exe-Join-Now4 {
+    transition: transform 0.3s ease;
+}
+
+.breed-card4:hover .Exe-Join-Now {
+    transform: translateY(-10px); /* Move button up slightly on hover */
+}
+.arrow-input2{
+    width: 2rem;
+    left: 2px;
+    top: 11px;
+    position: relative;
+}
+
+.breed-card5 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    gap: 1rem;
+    border-radius: 30px;
+    width: 230px;
+    color: white;
+    background-image: url('your-background-image-url.jpg'); /* Set your background image URL */
+    min-height: 100%;
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.3), rgba(4, 1, 191, 0.3)), url('your-background-image-url.jpg'); /* Set your background image URL */
+    background-size: cover;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+    position: relative;
+    z-index: 2;
+    left: 100px;
+}
+
+.Exe-Join-Now5 {
+    position: relative;
+    top: -10px;
+    left: 6%;
+    width: 200px;
+    border-radius: 20px;
+    height: 130px;
+    z-index: 0;
+    background-image: url('../../../../assets/apartmentDogs1.gif');
+    background-size: cover;
+}
+
+.breed-card5:hover {
+    background: linear-gradient(135deg, rgba(229, 117, 221, 0.5), rgba(4, 1, 191, 0.5)), url('your-hover-background-image-url.jpg'); /* Set your hover background image URL */
+    cursor: pointer;
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
+/* Add animation to the Exe-Join-Now button */
+.Exe-Join-Now5 {
+    transition: transform 0.3s ease;
+}
+
+.breed-card5:hover .Exe-Join-Now {
+    transform: translateY(-10px); /* Move button up slightly on hover */
+}
+
+.arrow-input5{
+    width: 2rem;
+    left: 2px;
+    top: 0px;
+    position: relative;
+ }
+
+.JoinNowText5{
+    z-index: 2;
+    position: relative;
+    top: -10px;
+    padding-right:10px ;
+    width: 100px;
+    color: #07226b;
+    text-decoration: #ff2e2e;
+    font-family:sans-serif;
+
+}
+        
+.TinybreedExercises {
+    background-image: url('../../../../assets/BackgroundTiny.avif');
+    width: 88%; 
+    height: 500px;  /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center bottom; /* Center horizontally and align the image to the bottom vertically */
+    padding: 0px; /* Add padding for spacing */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    color: #fff; /* Set text color to white for better contrast */
+    margin-bottom: 30px;
+    position: relative;
+    top: -250px;
+    left: 150px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }}
+
+.CardOfTiny{
+    position:relative;
+    left: 600px;
+}
+.CardOfLeftSide{
+    position:relative;
+    left: 680px;
+    bottom: 680px; 
+}
+
+.TinybreedExercises-header {
+    font-size: 1.5rem; /* Increase header font size */
+    font-weight: bold;
+    color: #07226b; /* Dark blue color for header */
+    text-transform: uppercase;
+    padding-left: 9%;
+}
+.ExercisePara{
+    text-align:left;
+    padding-left: 35%;
+}
+.TinybreedExercises-topic1 {
+    font-weight: bold;
+    color: #164bbd; /* Red color for topic */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding-right:0px ;
+    left: 390px;
+    position: relative;
+}
+.extopic2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.TinybreedExercises p {
+    color: #333; /* Dark text color */
+    line-height: 1.5; /* Increase line height for better readability */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.TinybreedExercises-header{
+    font-weight: bold; /* Make topic spans bold */
+    color: #07226b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Dark blue color for topic spans */
+}
+.inputBottom{
+    position: absolute;
+    right: 50%;
+    top: 250%;
+    width: 1300px;
+    height: 400px;
+}
+.linkToIndoorGames{
+    font-weight: bold;
+}
+
+/*Active Dog Exercises*/
+.ActivebreedExercises {
+    background-image: url('../../../../assets/ActiveDogBackground.jpg');
+    width: 80%; 
+    height: 500px;  /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image and adjust it 20% from the top */
+    padding: 0px; /* Add padding for spacing */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    color: #fff; /* Set text color to white for better contrast */
+    margin-bottom: 20px;
+    position: relative;
+    top: -250px;
+    left: 190px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.ActivebreedExercises-header {
+    font-size: 1.5rem; /* Increase header font size */
+    font-weight: bolder;
+    color: #07226b; /* Dark blue color for header */
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 30px;
+    position: relative;
+}
+
+.ActiveExercisePara{
+    text-align:left;
+    padding-left: 1%;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.Activeextopic2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ActiveExercisePara span{
+    margin-left:20px ;
+}
+
+.ActivebreedExercises-topic1 {
+    font-weight: bold;
+    color: #164bbd; /* Red color for topic */
+    font-family:sans-serif;
+    font-size: large;
+    left: 30px;
+    position: relative;
+}
+/*ShaddeingDogs CSS*/
+.ShadingbreedExercises {
+    background-image: url('../../../../assets/SheddingDogBackground.jpeg');
+    width: 89%; 
+    height: 600px;  /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    padding: 0px; /* Add padding for spacing */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    color: #fff; /* Set text color to white for better contrast */
+    margin-bottom: 30px;
+    position: relative;
+    top: -300px;
+    left: 150px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.SheddingbreedExercises-header {
+    font-size: 1.5rem; /* Increase header font size */
+    font-weight: bold;
+    color: #07226b; /* Dark blue color for header */
+    text-transform: uppercase;
+    padding-left: 4%;
+    font-weight: bold; /* Make topic spans bold */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Dark blue color for topic spans */
+
+}
+.SheddingExercisePara{
+    text-align:left;
+    padding-left: 11%;
+    color: #333; /* Dark text color */
+    line-height: 1.5; /* Increase line height for better readability */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #09022b;
+    margin-bottom: 10px; 
+}
+.SheddingbreedExercises-topic1{
+    font-weight: bold;
+    color: #164bbd; /* Red color for topic */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    position: relative;
+    left: 120px;
+}
+.Sheddingextopic2{
+    font-weight: bold;
+    color: #012e83;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*LargeDog Breeds css*/
+.LargebreedExercises {
+    background-image: url('../../../../assets/HuskyBackground.jpg');
+    width: 80%; 
+    height: 600px;  /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    padding: 0px; /* Add padding for spacing */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    color: #fff; /* Set text color to white for better contrast */
+    margin-bottom: 30px;
+    position: relative;
+    top: -300px;
+    left: 180px;  
+    animation: fadeIn 1s ease-in-out;
+}
+.ActiveExercisePara{
+    text-align:left;
+    padding-left: 11%;
+    color: #333; /* Dark text color */
+    line-height: 1.5; /* Increase line height for better readability */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #20039d;
+    margin-bottom: 10px; 
+}
+    
+.TinybreedExercises-header {
+    font-size: 1.5rem; /* Increase header font size */
+    font-weight: bold;
+    color: #07226b; /* Dark blue color for header */
+    text-transform: uppercase;
+    padding-left: 9%;
+}
+
+.ApartmentbreedExercises {
+    background-image: url('../../../../assets/ApartmentDogBackground.avif');
+    width: 85%; 
+    height: 600px;  /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    padding: 0px; /* Add padding for spacing */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    color: #fff; /* Set text color to white for better contrast */
+    margin-bottom: 30px;
+    position: relative;
+    top: -300px;
+    left: 150px;
+    animation: fadeIn 1s ease-in-out;
+}
+        
+.TinybreedExercises-header {
+    font-size: 1.5rem; /* Increase header font size */
+    font-weight: bold;
+    color: #07226b; /* Dark blue color for header */
+    text-transform: uppercase;
+    padding-left: 9%;
+}
+.Apartmentextopic2{
+    font-weight: bold;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ApartmentExercisePara{
+    text-align:left;
+    padding-left: 35%;
+    color: #0b0101; /* Dark text color */
+    line-height: 1.5; /* Increase line height for better readability */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dogsBreedsText,.dogsBreedsText1{
+        display: none;
+    }
+    .breed-card1,.breed-card2,.breed-card2,.breed-card3,.breed-card4,.breed-card5{
+        width: 160px; /* Adjust width as needed */
+        height: 250px;
+
+    }
+    .Exe-Join-Now,.Exe-Join-Now2,.Exe-Join-Now3,.Exe-Join-Now4,.Exe-Join-Now5{
+        width: 140px; /* Adjust width as needed */
+        height: 100px;
+    }
+   .inputBottom{
+        width: 80%; /* Adjust width as needed */
+    
+   }
+}
+@media only screen and (max-width: 768px) {
+    .dogsBreedsText,.dogsBreedsText1{
+        display: none;
+    }
+    .breed-card1,.breed-card2,.breed-card2,.breed-card3,.breed-card4,.breed-card5{
+        width: 105px; /* Adjust width as needed */
+        height: 150px;
+        left:20%
+
+    }
+    .Exe-Join-Now,.Exe-Join-Now2,.Exe-Join-Now3,.Exe-Join-Now4,.Exe-Join-Now5{
+        width: 80px; /* Adjust width as needed */
+        height: 90px;
+    }
+   .inputBottom{
+        display: none;
+   }
+}
+body{
+    background-color: #C6DEF1;
+}

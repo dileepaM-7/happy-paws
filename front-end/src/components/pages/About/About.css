@@ -1,0 +1,182 @@
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-size: 48px;
+  font-weight: 1000;
+  color: rgba(255, 255, 255, 0.9); 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  background-image: linear-gradient(to right, rgba(92, 164, 227, 0.692), rgba(60, 80, 255, 0.4)); 
+  -webkit-background-clip: text; 
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+.container-all-data{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -100px;
+    
+}
+.container img {
+  width: 50%;
+  height: 70%;
+}
+.Name {
+  width: 250px;
+  height: 500px;
+  margin: 2rem 2rem; /* Add space between items */
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+/* Styles for the first line (name1, name2, name3) */
+.name1, .name2, .name3 {
+  width: calc(30% - 4rem); /* Adjust the width to fit three items in a row with margin */
+
+}
+
+/* Styles for the second line (name4, name5) */
+.name4, .name5 {
+  width: calc(30% - 4rem); /* Adjust the width to fit two items in a row with margin */
+}
+.Name:hover{
+  transform: translateY(20px);
+}
+.Name:before{
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom,rgba(92, 164, 227, 0.692),rgba(60, 80, 255, 0.4));
+ 
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+.Name:hover:before{
+  opacity: 1;
+
+}
+.Name img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top:0;
+ left: 0;
+}
+.Name .info{
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s all;
+  transform: translateY(30px);
+  
+}
+
+.Name:hover .info{
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+.Name .info  .h4{
+  margin: 0;
+
+}
+.Name .info .p{
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+h2{
+  text-align: center; 
+  color: #fff; 
+  font-family: 'Anton', sans-serif, 'EB Garamond', serif; 
+  font-size: 24px; /* Font size */
+  font-weight: 700; /* Font weight */
+  line-height: 1.2; /* Line height */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1px; /* Letter spacing */
+  margin-bottom: 20px; /* Add space below the heading */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+.para-about {
+  position: relative;
+  font-size: 18px;
+  line-height: 1.6; 
+  color: #000000;  
+  padding: 20px; 
+  border-radius: 10px; 
+  width: 70%; 
+  margin: 0% auto 10% auto;  /* Updated margin values */
+  justify-content: center;
+}
+.container .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .info .linkedin-link {
+  display: block; /* Set display to block to make the anchor appear on a new line */
+}
+.linkedin_link{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+.user-name{
+  position: absolute;
+  top: -101%;
+  left: 22%;
+  text-decoration: none;
+  color: #fff;
+}
+.user-name a{
+  text-decoration: none;
+  color: #fff;
+}
+.discription{
+  position: relative;
+  top: -20px;
+  left: -2%;
+  text-align: center;
+}
+.discription1{
+  position: relative;
+  top: -20px;
+  left: -1%;
+  text-align: center;
+}
+@media only screen and (max-width: 360px){
+  .aboutus-container-all h1{
+    font-size: 250%;
+  }
+  .aboutus-container-all h2{
+    font-size: 140%;
+  }
+  .para-about{
+    font-size: 70%;
+  }
+  
+   .name1,.name2,.name3,.name4,.name5{
+ height: 100%;
+   }
+   .Name:hover .info{
+   display: none;
+
+   }
+}

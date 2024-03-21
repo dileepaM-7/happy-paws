@@ -1,0 +1,540 @@
+/* Base styles for feature sections */
+.meal-suggestion,
+.excerise-suggestion,
+.consultant-search,
+.vaccine-date,
+.medical-data,
+.consultant-profile {
+  position: relative;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+/* Hover effects for feature sections */
+.meal-suggestion:hover,
+.excerise-suggestion:hover,
+.consultant-search:hover,
+.vaccine-date:hover,
+.medical-data:hover,
+.consultant-profile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual positioning for each feature section */
+.meal-suggestion {
+  margin: 100px auto;
+  left: -200px;
+  background-color: #f0de7c; /* Gold background color */
+}
+
+.excerise-suggestion {
+  margin: 100px auto;
+  right: -200px;
+  background: linear-gradient(to right, #66d56a, #43dc83); /* Green gradient background */
+}
+
+.consultant-search {
+  margin: 100px auto;
+  left: -200px;
+  background-color: #5ea6d6; /* Blue background color */
+}
+
+.vaccine-date {
+  margin: 100px auto;
+  right: -200px;
+  background: linear-gradient(to right, #d97e76, #d97945); /* Red gradient background */
+}
+
+.medical-data {
+  margin: 100px auto;
+  left: -200px;
+  background-color: #d07fa5; /* Purple background color */
+}
+.consultant-profile{
+  margin: 100px auto;
+  right: -200px;
+  background-color: #a17fd0; /* Purple background color */
+}
+
+/* Styling for food image */
+.food-image {
+  position: absolute;
+  width: 350px;
+  top: -51px;
+  left: -20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for food image */
+.food-image:hover {
+  transform: rotate(10deg);
+}
+
+/* Styling for the paragraph inside meal-suggestion */
+.meal-suggestion p {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  color: #333; /* Dark gray text color */
+}
+
+
+/* Styling for the Get Started button */
+.food-btn {
+  position: absolute;
+  left: 34.5%;
+  top: 55%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.food-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.food-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+/* Additional styles for hover effects and animations can be added as needed */
+.ex-image 
+ {
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 75%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for food image */
+.ex-image:hover{
+  transform: rotate(10deg);
+}
+.excerise-suggestion p {
+  position: absolute;
+  left: 05%;
+  top: 28%;
+  color: #333; /* Dark gray text color */
+}
+.ex-btn{
+  position: absolute;
+  left: 55%;
+  top: 58%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.ex-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.ex-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+.consultant-image{
+  position: absolute;
+  width: 220px;
+  top: 50px;
+  left: 2%;
+  transition: transform 0.3s ease-in-out;
+}
+.consultant-image:hover{
+  transform: rotate(10deg);
+}
+.find-consultants-para{
+  position: relative;
+  left: 30%;
+  top: 0%;
+}
+.consultant-btn{
+  position: absolute;
+  left: 30.5%;
+  top: 53%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.consultant-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.consultant-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+.vaccine-image{
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 70%;
+  transition: transform 0.3s ease-in-out;
+}
+/* Hover effect for food image */
+.vaccine-image:hover{
+  transform: rotate(10deg);
+}
+.vaccine-date p{
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  color: #333; /* Dark gray text color */
+}
+.vaccine-btn{
+  position: absolute;
+  left: 55%;
+  top: 65%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.vaccine-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.vaccine-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+.medical-image{
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 5%;
+  transition: transform 0.3s ease-in-out;
+}
+.medical-image:hover{
+  transform: rotate(10deg);
+}
+.medical-data p{
+  position: relative;
+  left: 30%;
+  top: 3%;
+}
+.medical-btn{
+  position: absolute;
+  left: 30.5%;
+  top: 57%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.medical-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.medical-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+
+.consultant-profile-img{
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 72%;
+  transition: transform 0.3s ease-in-out;
+}
+.consultant-profile-img:hover{
+  transform: rotate(10deg);
+}
+.consultant-profile p{
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  color: #000000; /* Dark gray text color */
+}
+.consultant-profile h3{
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  color: #fbff00; /* Dark gray text color */
+}
+@media only screen and (max-width: 1200px){
+.meal-suggestion,
+.excerise-suggestion,
+.consultant-search,
+.vaccine-date,
+.medical-data,
+.consultant-profile {
+  position: relative;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  .meal-suggestion p,
+  .excerise-suggestion p,
+  .consultant-search p,
+  .vaccine-date p,
+  .medical-data p,
+  .consultant-profile p{
+    display:none;
+  }
+  .consultant-profile h3{
+    font-size: small;
+    top: 85%;
+    left: 40px;
+  }
+  .food-btn {
+    top: 70%;
+    
+  }
+  .meal-suggestion b,
+  .excerise-suggestion b,
+  .vaccine-date b,
+  .medical-data b{
+    position: absolute;
+    left: 30%;
+  }
+  .consultant-search b{
+    position: absolute;
+    left: 25%;
+  }
+  .food-image {
+    left: 5%;
+  }
+  .ex-btn{
+    top: 76%;
+    left: 33%;
+  }
+  .ex-image{
+    left: 25%;
+  }
+  .consultant-btn{
+    height: 40px;
+    top: 78%;
+    left: 33%;
+  }
+  .consultant-image{
+    left: 17%;
+  }
+  .vaccine-image{
+    width: 40%;
+    left: 30%;
+  }
+  .vaccine-btn{
+    top: 75%;
+    left: 40%;
+  }
+  .medical-btn{
+    top: 75%;
+  }
+  .medical-image{
+    left: 20%;
+  }
+  .consultant-profile-img{
+    width: 170px;
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 992px){
+
+  .meal-suggestion,
+  .excerise-suggestion,
+  .consultant-search,
+  .vaccine-date,
+  .medical-data,
+  .consultant-profile {
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    }
+    .consultant-profile h3{
+      font-size: xx-small;
+      top: 65%;
+      left: 40px;
+    }
+    .food-btn {
+      top: 50%;
+      left: 15%;
+      
+    }
+    .meal-suggestion b,
+    .excerise-suggestion b,
+    .vaccine-date b,
+    .medical-data b{
+      position: absolute;
+      left: 30%;
+    }
+    .consultant-search b{
+      position: absolute;
+      left: 25%;
+    }
+    .food-image {
+      display: none;
+    }
+    .ex-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .ex-image{
+      display: none;
+    }
+    .consultant-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .consultant-image{
+      display: none;
+    }
+    .vaccine-image{
+      display: none;
+    }
+    .vaccine-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .medical-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .medical-image{
+      display: none;
+    }
+    .consultant-profile-img{
+      display: none;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+  .meal-suggestion,
+  .excerise-suggestion,
+  .consultant-search,
+  .vaccine-date,
+  .medical-data,
+  .consultant-profile {
+    width: 30%; /* Adjust the width to make the containers smaller */
+    height: 150px; /* Adjust the height if necessary */
+    padding: 15px; /* Adjust padding as needed */
+  }
+
+  .consultant-profile h3 {
+    font-size: xx-small; /* Adjust font size */
+    top: 50%; /* Adjust positioning */
+    left: 35px; /* Adjust positioning */
+  }
+
+  .food-btn,
+  .ex-btn,
+  .consultant-btn,
+  .vaccine-btn,
+  .medical-btn {
+    top: 40%; /* Adjust positioning */
+    left: 20%; /* Adjust positioning */
+  }
+
+  .meal-suggestion b,
+  .excerise-suggestion b,
+  .vaccine-date b,
+  .medical-data b {
+    position: absolute; /* Adjust positioning */
+    left: 10%; /* Adjust positioning */
+  }
+
+  .consultant-search b {
+    position: absolute; /* Adjust positioning */
+    left: 20%; /* Adjust positioning */
+  }
+
+  /* Hide images for smaller containers */
+  .food-image,
+  .ex-image,
+  .consultant-image,
+  .vaccine-image,
+  .medical-image,
+  .consultant-profile-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 360px){
+  .services{
+    padding: 10px; /* Adjust padding as per your requirement */
+    margin-bottom: 10px; /* Adjust margin as per your requirement */
+  }
+ .meal-suggestion{
+  left: 0;
+  width: 60%;
+margin-bottom: 30px; 
+margin-top: 50px; 
+
+ }
+ .excerise-suggestion,.vaccine-date,.consultant-profile{
+  right: 0;
+  width: 60%;
+  margin-bottom: 30px; 
+  margin-top: 30px; 
+  
+ }
+ .consultant-search,.medical-data{
+  left: 0;
+  width: 60%;
+  margin-bottom: 30px; 
+margin-top: 30px; 
+  
+ }
+
+}
+
+
+
+
+
+
+
+

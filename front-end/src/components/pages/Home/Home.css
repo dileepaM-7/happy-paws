@@ -1,0 +1,212 @@
+.all-content{
+    background-color: #C6DEF1;
+}
+
+.dogImage{
+    width: 550px;
+    align-items: right;
+    position: absolute; /* Use absolute positioning */
+    right: 130px; /* Align to the right */
+    top: 250px;
+}
+
+.first_content{
+    color: #040006;
+    font-size: 50px;
+    font-family: 'Inter';
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.text-main{
+    position: absolute;
+    left: 150px;
+    top: 230px;
+}
+.second_content{
+    color: #3C50FF;
+    font-size: 50px;
+    font-family: 'Inter';
+    font-weight: 800;
+    word-wrap: break-word;
+}
+.last_txt{
+    position: relative;
+    top: 30px;
+}
+.features-button {
+    width: 150px;
+    height: 40px;
+    background-color: #5ca4e3;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-left: 1px;
+    cursor: pointer;
+    position: relative; /* Add relative positioning to the parent */
+    overflow: hidden; /* Ensure that the pseudo-element does not overflow */
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+.features-button:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.features-button::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 37px;
+    width: 120px;
+    border-radius: 30px;
+    background-color: #5ca4e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+}
+
+.features-button:hover::before {
+    opacity: 1; /* Change opacity on hover to make the pseudo-element visible */
+}
+.playImage{
+    width: 11px;
+}
+/*@media only screen and (max-width: 1200px){
+    .first_content{
+        color: #040006;
+        font-size: 40px;
+        font-family: 'Inter';
+        font-weight: 300;
+        word-wrap: break-word;
+    }
+    .text-main{
+        position: absolute;
+        left: 150px;
+        top: 230px;
+    }
+    .second_content{
+        color: #3C50FF;
+        font-size: 40px;
+        font-family: 'Inter';
+        font-weight: 800;
+        word-wrap: break-word;
+    }
+    .last_txt{
+        display: none;
+    }
+    .features-button {
+        width: 120px;
+        height: 30px;
+        background-color: #5ca4e3;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 80px;
+        margin-left: 1px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden; 
+        color: #000000 !important;
+        text-decoration: none !important;
+        font-size: smaller;
+    }
+}*/
+
+@media only screen and (max-width: 1200px){
+    .text-main{
+        font-size: 40%;
+        left: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 1600px){
+    .text-main{
+        position: absolute;
+        font-size: 100%;
+        left: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .all-content{
+        width: 100%;
+    }
+    .text-main {
+        font-size: 80%;
+        left: 0; /* Adjust positioning */
+        width: 100%; /* Make the element fill the entire width */
+        text-align: center; /* Optionally center the text */
+    }
+
+    .dogImage {
+        width: 100%; /* Make the image fill the entire width */
+        right: 0; /* Adjust positioning */
+        top: 250px;
+    }
+
+    .first_content {
+        font-size: 40px; /* Adjust font size */
+    }
+
+    .second_content {
+        font-size: 40px; /* Adjust font size */
+    }
+
+    .features-button {
+        width: 50%; /* Make the button fill the entire width */
+        margin-left: 0;
+        left: 25%; /* Remove left margin */
+    }
+}
+@media only screen and (max-width: 992px) {
+    .all-content {
+        width: 100%;
+    }
+
+    .text-main {
+        font-size: 90%; /* Adjust font size */
+        left: 0; /* Adjust positioning */
+        width: 100%; /* Make the element fill the entire width */
+        text-align: center; /* Optionally center the text */
+    }
+
+    .dogImage {
+        width: 100%; /* Make the image fill the entire width */
+        right: 0; /* Adjust positioning */
+        top: 250px;
+    }
+
+    .first_content {
+        font-size: 45px; /* Adjust font size */
+    }
+
+    .second_content {
+        font-size: 45px; /* Adjust font size */
+    }
+
+    .features-button {
+        width: 50%; /* Make the button fill half of the width */
+        margin-left: 0;
+        left: 25%; /* Position the button in the center */
+    }
+}
+@media only screen and (max-width: 360px){
+    .last_txt{
+        display: none;
+    }
+    .text-main {
+        font-size: 80%;
+        left: 0; /* Adjust positioning */
+        width: 100%; /* Make the element fill the entire width */
+        text-align: center; /* Optionally center the text */
+    }
+}

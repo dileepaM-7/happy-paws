@@ -1,0 +1,155 @@
+/* Extra Small (XS) */
+@media screen and (max-width: 576px) {
+  /* CSS rules for extra small screens */
+}
+
+/* Small (SM) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* CSS rules for small screens */
+}
+
+/* Medium (MD) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS rules for medium screens */
+}
+
+/* Large (LG) */
+@media screen and (min-width: 992px) {
+  /* CSS rules for large screens */
+}
+
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Thaloma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App-medical{
+  background-color: #C6DEF1;
+}
+
+/* Header */
+.medical-header {
+  background-color: #3f4e5b9e;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.medical-header img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.mediHeadName{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #222431;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgb(251, 251, 251);
+}
+
+/* Main Content */
+.medical-content {
+  max-width: 1000px;
+  margin: 40px auto;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 40px;
+  background-color: #ffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* File Upload */
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-upload input[type="text"],
+.file-upload input[type="file"],
+.file-upload button {
+  margin: 5px 0;
+}
+
+.file-upload input[type='text']{
+ border-radius: 5px ;
+ background-color: #87c2f251;
+}
+
+
+.file-upload button {
+  background-color: #C6DEF1;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px ;
+}
+
+.file-upload button:hover {
+  background-color: #386799;
+}
+
+.upload-status {
+  text-align: center;
+  color: #864242;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+/* Uploaded Files List */
+.mediUploaded {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.uploaded-files ul {
+  display: grid;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Adjust the gap between the columns */
+}
+
+.uploaded-files li {
+  margin-bottom: 10px;
+  background-image: url('../../../assets/medicalList.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px; /* Adjust the size as needed */
+  padding-left: 30px; /* Add some left padding for the image */
+}
+
+.uploaded-files a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.uploaded-files a:hover {
+  text-decoration: underline;
+}
+
+/* Dog Image/GIF */
+.dog-image {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  max-width: 200px;
+}
+
+.dog-image img {
+  width: 100%;
+  height: auto;
+}

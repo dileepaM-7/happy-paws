@@ -1,0 +1,50 @@
+.bussiness-content {
+    background-color: #C6DEF1;
+    width: 100%;
+    height: 100%;
+}
+
+.bussiness-profile-content {
+    max-width: 1000px;
+    height: 650px;
+    margin: 100px auto 0; /* Adjusted margin to 100px top, auto left/right, and 0 bottom */
+    padding: 20px;
+    text-align: center;
+    background-color: #2b3440;
+    border-radius: 100px; /* Reduced border-radius for a smoother appearance */
+    color: #fff;
+}
+.bussiness-content h2{
+    position: relative;
+    margin-top: auto;
+    color: #2b3440;
+    top: 40px;
+}
+.bussines-name-lbl{
+    margin-bottom: 5;
+}
+.bussiness-account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.button-set button{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.signout-btn{
+    position: absolute;
+    top: 10px;
+    left: 90%;
+}
+.account-status{
+    position: absolute;
+    top: 65%;
+    left: 33%;
+    color: red;
+}
+.account-status.published {
+    color: rgb(127, 226, 127);
+    /* add any other styles you want for the "published" state */
+  }

@@ -1,0 +1,141 @@
+.container1 {
+  position: relative;
+  margin: 0 auto; /* Center the container horizontally */
+  width: 1200px; /* Set the width of the container to 90% of the viewport width */
+  height: 350px; /* Set the height of the container */
+  display: flex;
+  align-items: center;
+}
+
+.searchbox{
+    text-align: center;
+    margin: 3rem;
+}
+.search-bar{
+    width: 400px;
+    height: 40px;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    font-family:'Arial', 'Helvetica', sans-serif ;
+
+}
+.heading p{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    max-width: 65rem;
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 15rem;
+    line-height: 1.7;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+.heading h1{
+    color: #fff;
+    font-family:'Arial', 'Helvetica', sans-serif ;
+    padding-top: 3rem;
+    font-size: 50px;
+    margin-bottom: 3rem;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+.heading{
+    text-align: center;
+}
+.main{
+    background-color: #C6DEF1;
+}
+.highlight1{
+    background-color: white;
+    font-family:'Arial', 'Helvetica', sans-serif ;
+    color: #80a5d6;
+}
+.meal-genarate-btn{
+    position: absolute;
+    left: 46%;
+    top: 48%;
+    border-radius: 20px;
+}
+.main{
+    width: auto;
+    height: 100%;
+}
+.heading h2{
+    font-size: 50px;
+    color: rgb(55, 60, 58);
+    text-align: center;
+}
+.meal-description{
+    text-align: center;
+    position: relative;
+    top: -350px;
+}
+.meal-data-input{
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    display: grid;
+}
+.meal-data-input input{
+    margin: 10px;
+
+}
+.mealitems p{
+    margin-top: 10px;
+}
+.mealitems ul{
+    margin-top: 30px;
+    text-decoration: dotted;
+}
+.mealitems{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 58%;
+    left: 32%;
+    width: 500px;
+    height: 300px;
+    
+    background-color: #2b3440;
+    border-radius: 50px;
+    color: #fff;
+    justify-content: center;
+}
+.predicted-food-list {
+    list-style: inside;
+    list-style-type: square;
+    text-align: left;
+  }
+  .predicted-food-list li {
+    color: #000;
+    background-color: #ffffffd4;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(60, 165, 231, 0.737);
+    transition: background-color 0.3s ease;
+  }
+
+  @media only screen and (max-width: 2000px){
+    .meal-data-input{
+        position: absolute;
+        top: 28%;
+        left: 39%;
+        display: grid;
+    }
+    .meal-genarate-btn{
+        position: absolute;
+        left: 47%;
+        top: 48%;
+        border-radius: 20px;
+    }
+  }

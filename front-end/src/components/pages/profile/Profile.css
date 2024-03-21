@@ -1,0 +1,56 @@
+.userprofile{
+    display: flex;
+    flex-direction: column;
+    background-color:#313e4a ;
+}
+
+h2 {
+    font-size: 60px;
+    margin-top: 20px;
+    color: #ffffff; /* Dark text color */
+}
+
+.userprofile .ProfileDetails {
+    margin-top: 20px;
+    background-color: #FFFFFF; /* White background for profile details */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+}
+
+.userprofilein{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 20px;
+}
+
+
+.userprofile .userprofilein .left{
+    width: 20%;
+    background-color: #a9bfe7;
+    border: 1px solid rgb(28, 26, 26);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height:50vh ;
+}
+
+.userprofile .userprofilein .right{
+    width: 70%;
+    background-color: #a9bfe7;
+    border: 1px solid rgb(28, 26, 26);
+    border-radius: 5px;
+    min-height:50vh ;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5ca4e3; /* Blue button color */
+    color: #FFFFFF; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
